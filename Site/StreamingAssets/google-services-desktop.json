@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "842722285092",
+    "firebase_url": "https://introtocsharp-a5eeb-default-rtdb.firebaseio.com",
+    "project_id": "introtocsharp-a5eeb",
+    "storage_bucket": "introtocsharp-a5eeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842722285092:android:6f136b92613fd005e7aab1",
+        "android_client_info": {
+          "package_name": "org.captaincoder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "842722285092-gb5uhkrbm2c5r7r3is1dekeouajv5ne6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuBJFjxnJN0PmmRFNGX3hNRMZ_QURYdVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "842722285092-gb5uhkrbm2c5r7r3is1dekeouajv5ne6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
