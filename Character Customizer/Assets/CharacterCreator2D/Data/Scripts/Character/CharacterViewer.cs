@@ -81,7 +81,7 @@ namespace CharacterCreator2D
         private bool isEmoting = false;
         private bool isEmotingAnimationEvent = false;
 
-        private DataManager _dataManager = new DataManager();
+        public DataManager _dataManager = new DataManager();
 
         #endregion Private Field
 
@@ -649,6 +649,14 @@ namespace CharacterCreator2D
                 Debug.LogError("error on save to JSON:\n" + e.ToString());
                 return false;
             }
+        }
+
+        public string ToJSON()
+        {
+                CharacterData data = GenerateCharacterData();
+                string content = JsonUtility.ToJson(data, true);
+                return content;
+               
         }
 
         /// <summary>

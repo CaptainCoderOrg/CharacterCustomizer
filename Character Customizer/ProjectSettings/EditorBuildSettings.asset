@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/CharacterCreator2D/Creator UI/Creator UI.unity
     guid: 052aa07681e0d3a48bbcba2afad67a6e
-  - enabled: 1
+  - enabled: 0
     path: Assets/00Project/LoginScreen/LoginScreen.unity
     guid: 306d4d4da37ddae43add15c13973e109
+  - enabled: 1
+    path: Assets/00Project/ItemCreator/ItemCreator.unity
+    guid: 3e67533a62b07184e8667323e4d61bb0
   m_configObjects: {}

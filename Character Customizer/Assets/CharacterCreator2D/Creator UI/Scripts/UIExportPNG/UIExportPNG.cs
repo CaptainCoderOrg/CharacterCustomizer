@@ -495,13 +495,13 @@ namespace CharacterCreator2D.UI
             frameCountUI.text = frameCount.ToString();
         }
 
-        private void SaveAsPNG()
+        public void SaveAsPNG()
         {
             // Show save file dialog
-			#if UNITY_EDITOR
-            path = UnityEditor.EditorUtility.SaveFilePanel("Export Single Image", "Assets/", fileName, "png");
-			#endif
-
+			// #if UNITY_EDITOR
+            // path = UnityEditor.EditorUtility.SaveFilePanel("Export Single Image", "Assets/", fileName, "png");
+			// #endif
+            path = "output.png";
             if (string.IsNullOrEmpty(path))
                 return;
 
